@@ -1,16 +1,16 @@
-# dic1={"name":"ajay","age":25,"salary":25000,"city":"mahuva"}
-# for key,value in dic1.items():
-#     print(key,value)
+dic1={"name":"ajay","age":25,"salary":25000,"city":"mahuva"}
+for key,value in dic1.items():
+    print(key,value)
 
 
-# no=int(input("enter how many keys and values add to d1:"))
-# d1={}
-# for i in range(no):
-#     k=input("enter the key:")
-#     v=input("enter the value:")
-#     d1[k]=v
+no=int(input("enter how many keys and values add to d1:"))
+d1={}
+for i in range(no):
+    k=input("enter the key:")
+    v=input("enter the value:")
+    d1[k]=v
     
-#print(d1)
+print("the total are",d1)
 
 
 # dts1={}
